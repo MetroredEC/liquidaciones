@@ -1,0 +1,34 @@
+[
+  {
+    "id": "TARJETA",
+    "name": "Tarjetas",
+    "description": "Template para lotes de conciliación de tarjetas.",
+    "columns": [
+      "Journal Template", "Batch", "Posting Date", "Document No.", "Account Type", "Account No.",
+      "Bal. Account Type", "Bal. Account No.", "Amount", "Currency", "External Doc No.",
+      "Description", "Dimension 1", "Dimension 2", "Reason Code"
+    ],
+    "defaults": {
+      "Journal Template": "GENERAL",
+      "Batch": "TARJETAS",
+      "Currency": "USD",
+      "Reason Code": "TC"
+    }
+  },
+  {
+    "id": "EFECTIVO",
+    "name": "Efectivo",
+    "description": "Template para lotes de conciliación de efectivo.",
+    "columns": [
+      "Journal Template", "Batch", "Posting Date", "Document No.", "Account Type", "Account No.",
+      "Bal. Account Type", "Bal. Account No.", "Amount", "Currency", "External Doc No.",
+      "Description", "Dimension 1", "Dimension 2", "Reason Code"
+    ],
+    "defaults": {
+      "Journal Template": "GENERAL",
+      "Batch": "EFECTIVO",
+      "Currency": "USD",
+      "Reason Code": "EF"
+    }
+  }
+]

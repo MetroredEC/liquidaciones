@@ -1,0 +1,19 @@
+{
+  "banks": [
+    { "id": "PICHINCHA", "name": "Banco Pichincha" },
+    { "id": "DINERS", "name": "Banco Diners Club" },
+    { "id": "BOLIVARIANO", "name": "Banco Bolivariano" }
+  ],
+  "centers": [
+    { "id": "MATRIZ", "name": "Centro Matriz" },
+    { "id": "NORTE", "name": "Centro Norte" },
+    { "id": "SUR", "name": "Centro Sur" }
+  ],
+  "paymentMethods": [
+    { "id": "ASEGURADORA", "name": "Aseguradora/SSO" },
+    { "id": "EFECTIVO", "name": "Efectivo" },
+    { "id": "TARJETA", "name": "Tarjeta" },
+    { "id": "AUTOCONSUMO", "name": "Autoconsumo" },
+    { "id": "DESCUENTO_ROL", "name": "Descuento a rol" }
+  ]
+}

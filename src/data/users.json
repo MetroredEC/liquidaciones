@@ -1,0 +1,20 @@
+[
+  {
+    "username": "admin",
+    "salt": "407c0430456e39ccea21895d5d94a2fb",
+    "hash": "04912e7e3245385be61672aba74ed9b35d9edb36f05021590bf3a62bc1aa3292",
+    "role": "Administrador"
+  },
+  {
+    "username": "analista",
+    "salt": "f4f41e8d63bba47b77af07803337b892",
+    "hash": "3a2325fd7a8f4f0c7b8f5af6217cee6e594faa5a75af5299b203863cab30299e",
+    "role": "Analista"
+  },
+  {
+    "username": "asistente",
+    "salt": "ee319d52b7cfd0b7d9fa9b24bbc4eba2",
+    "hash": "0d7bdebf4d3eb1b42309d062dbd21da0b871651eeba1acaa8dddf7efe40e0e35",
+    "role": "Asistente"
+  }
+]

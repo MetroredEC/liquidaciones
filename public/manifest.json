@@ -1,0 +1,20 @@
+{
+  "name": "Metrored Cartera - Módulo de Liquidaciones",
+  "short_name": "Metrored Cartera",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#00B7D3",
+  "theme_color": "#135EA7",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/512x512bb.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
