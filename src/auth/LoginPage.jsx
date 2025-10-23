@@ -16,6 +16,7 @@ const LoginPage = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const from = location.state?.from?.pathname || '/';
+  const logoUrl = `${import.meta.env.BASE_URL}logo.png`;
 
   const handleSubmit = async e => {
     e.preventDefault();
@@ -32,7 +33,7 @@ const LoginPage = () => {
       <div className="bg-white p-8 rounded shadow w-full max-w-md">
         <div className="mb-6 text-center">
           <img
-            src="/logo.png"
+            src={logoUrl}
             alt="Metrored logo"
             className="mx-auto h-16 w-16 mb-2"
           />
