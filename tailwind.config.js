@@ -6,6 +6,8 @@
  * content globs target all HTML and React source files so unused
  * classes can be purged in production builds.
  */
+import colors from 'tailwindcss/colors';
+
 export default {
   content: ['./index.html', './src/**/*.{js,jsx,ts,tsx}'],
   theme: {
@@ -13,9 +15,8 @@ export default {
       colors: {
         cyan: '#00B7D3',
         blue: '#135EA7',
-        gray: '#6B7280',
+        gray: { ...colors.gray, DEFAULT: '#6B7280' },
         grayLight: '#E5E7EB',
-        white: '#FFFFFF',
       },
     },
   },
