@@ -1,3 +1,6 @@
+import forms from '@tailwindcss/forms';
+import colors from 'tailwindcss/colors';
+
 /**
  * Tailwind CSS configuration file.
  *
@@ -13,11 +16,14 @@ export default {
       colors: {
         cyan: '#00B7D3',
         blue: '#135EA7',
-        gray: '#6B7280',
+        gray: {
+          ...colors.gray,
+          DEFAULT: '#6B7280',
+        },
         grayLight: '#E5E7EB',
         white: '#FFFFFF',
       },
     },
   },
-  plugins: [require('@tailwindcss/forms')],
+  plugins: [forms],
 };
