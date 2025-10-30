@@ -157,3 +157,7 @@ Los catálogos y plantillas se almacenan en `src/data/catalogs.json` y `src/data
 ## Conclusión
 
 Esta aplicación demuestra cómo construir un módulo de liquidaciones totalmente en frontend, con autenticación por roles, procesamiento de Excel/CSV/PDF, conciliación básica, exportación de archivos contables y un diseño responsive basado en Tailwind. Sirve como base extensible para implementar el Documento Funcional detallado y el instructivo MTR‑CAR‑IN‑005. Para producir un sistema listo para producción se deben ampliar las reglas de negocio, agregar seguridad y mejorar la experiencia de usuario.
+
+## Documento funcional accesible desde la app
+
+El Documento Funcional Detallado v0.9 descrito por Metrored se encuentra publicado dentro de la aplicación en la ruta pública `/documento-funcional`. Desde allí puede consultarse toda la arquitectura, flujos, reglas de negocio y criterios de prueba sin necesidad de iniciar sesión.

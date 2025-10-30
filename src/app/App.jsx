@@ -5,6 +5,7 @@ import RequireAuth from '../auth/RequireAuth';
 import RoleGuard from '../auth/RoleGuard';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
+import FunctionalSpecPage from '../features/document/FunctionalSpecPage';
 
 import LoginPage from '../auth/LoginPage';
 import Dashboard from '../features/Dashboard';
@@ -25,8 +26,9 @@ const App = () => {
   return (
     <AuthProvider>
       <Routes>
-        {/* Public route for login */}
+        {/* Public routes */}
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/documento-funcional" element={<FunctionalSpecPage />} />
         {/* Private routes wrapped with RequireAuth to enforce login */}
         <Route
           path="/*"
